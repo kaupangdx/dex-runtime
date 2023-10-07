@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "lib": ["es2020", "DOM"],
+    "target": "ES2020",
+    "module": "ES2022",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "declarationMap": true,
+    "strictFunctionTypes": true,
+    "outDir": "./dist"
+  },
+  "files": ["node_modules/jest-expect-message/types/index.d.ts"],
+  "include": ["./src/**/*"],
+  "exclude": ["jest.config.cjs"]
+}
