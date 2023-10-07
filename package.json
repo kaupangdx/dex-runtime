@@ -37,12 +37,12 @@
     "util": "^0.12.5"
   },
   "peerDependencies": {
-    "@proto-kit/common": "file:../framework/packages/common",
-    "@proto-kit/module": "file:../framework/packages/module",
-    "@proto-kit/protocol": "file:../framework/packages/protocol",
-    "@proto-kit/sdk": "file:../framework/packages/sdk",
-    "@proto-kit/sequencer": "file:../framework/packages/sequencer",
-    "snarkyjs": "file:../framework/node_modules/snarkyjs",
-    "tsyringe": "file:../framework/node_modules/tsyringe"
+    "@proto-kit/common": "*",
+    "@proto-kit/module": "*",
+    "@proto-kit/protocol": "*",
+    "@proto-kit/sdk": "*",
+    "@proto-kit/sequencer": "*",
+    "snarkyjs": "0.12.0",
+    "tsyringe": "^4.7.0"
   }
 }
