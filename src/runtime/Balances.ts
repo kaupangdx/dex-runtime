@@ -19,7 +19,9 @@ export class BalancesKey extends Struct({
   tokenId: TokenId,
   address: PublicKey,
 }) {
-  test() {}
+  public constructor(value: { tokenId: TokenId; address: PublicKey }) {
+    super(value);
+  }
 }
 
 export class Balance extends UInt64 {}
